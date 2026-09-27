@@ -8,12 +8,18 @@
       <stop offset="0.85" stop-color="#e6b93a"/>
       <stop offset="1" stop-color="#fbe7a1"/>
     </linearGradient>
-    <linearGradient id="letters" x1="0" y1="88" x2="0" y2="168" gradientUnits="userSpaceOnUse">
+    <linearGradient id="may" x1="0" y1="56" x2="0" y2="136" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff1b8"/>
       <stop offset="0.35" stop-color="#f2c94c"/>
       <stop offset="0.62" stop-color="#b8860b"/>
       <stop offset="0.85" stop-color="#e6b93a"/>
       <stop offset="1" stop-color="#fbe7a1"/>
+    </linearGradient>
+    <linearGradient id="apps" x1="0" y1="158" x2="0" y2="206" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff1b8"/>
+      <stop offset="0.4" stop-color="#f2c94c"/>
+      <stop offset="0.75" stop-color="#b8860b"/>
+      <stop offset="1" stop-color="#e6b93a"/>
     </linearGradient>
     <linearGradient id="black" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#1c1c1c"/>
@@ -22,13 +28,19 @@
   </defs>
   <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#black)"/>
   <rect x="17" y="17" width="222" height="222" rx="44" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.55"/>
-  <!-- The letters as paths (x 34..226, y 88..168), so the logo looks the same without any font. -->
-  <g fill="url(#letters)" fill-rule="evenodd">
+  <!-- MAY as paths (x 34..226, y 56..136), so it looks the same without any font. -->
+  <g fill="url(#may)" fill-rule="evenodd">
     <!-- M -->
-    <path d="M34 168 V88 h16 l15 31 l15 -31 h16 v80 h-15 v-50 l-12 24 h-8 l-12 -24 v50 z"/>
+    <path d="M34 136 V56 h16 l15 31 l15 -31 h16 v80 h-15 v-50 l-12 24 h-8 l-12 -24 v50 z"/>
     <!-- A (with its counter) -->
-    <path d="M102 168 L124 88 h18 l22 80 h-16 l-5 -18 h-20 l-5 18 z M133 106 L141 136 H125 z"/>
+    <path d="M102 136 L124 56 h18 l22 80 h-16 l-5 -18 h-20 l-5 18 z M133 74 L141 104 H125 z"/>
     <!-- Y -->
-    <path d="M168 88 h17 l12 26 l12 -26 h17 l-21 42 v38 h-16 v-38 z"/>
+    <path d="M168 56 h17 l12 26 l12 -26 h17 l-21 42 v38 h-16 v-38 z"/>
   </g>
+  <!-- A thin gold line between MAY and Apps. -->
+  <rect x="58" y="150" width="140" height="2" rx="1" fill="url(#gold)" opacity="0.7"/>
+  <!-- "Apps" below, smaller. -->
+  <text x="128" y="195" text-anchor="middle" fill="url(#apps)"
+    font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, 'DejaVu Sans', sans-serif"
+    font-size="46" font-weight="600" letter-spacing="6">Apps</text>
 </svg>
