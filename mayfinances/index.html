@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MayFinances</title>
+  <meta name="description" content="MayFinances: persönliche Finanzübersicht aus CSV-Exporten, lokal auf dem eigenen Computer.">
+  <link rel="icon" href="logo.svg">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.svg" alt="">
+    <div>
+      <h1>MayFinances</h1>
+      <p>Persönliche Finanzübersicht · Personal finance overview</p>
+    </div>
+  </header>
+  <nav><a href="../">MayApps</a><a href="./">MayFinances</a></nav>
+  <main>
+    <section lang="de">
+      <span class="lang">Deutsch</span>
+      <h2>Was ist MayFinances?</h2>
+      <p>MayFinances ist eine persönliche Finanzübersicht. Die Anwendung läuft auf dem eigenen Computer und wird im
+        Browser unter <code>http://localhost</code> bedient; sie ist über kein Netzwerk erreichbar und hat keinen
+        Server im Internet.</p>
+      <h3>Funktionen</h3>
+      <ul>
+        <li>Importiert die CSV-Exporte von Konten und Depots (z. B. Trade Republic, C24) aus einem Ordner auf dem Computer,
+          automatisch beim Start.</li>
+        <li>Zeigt Kontostände, Transaktionen mit Filtern, Depots mit Einstandswerten und aktuellen Kursen, realisierte
+          Gewinne (FIFO), Dividenden, Zinsen, Verträge und die Vermögensentwicklung.</li>
+        <li>Blendet auf Knopfdruck alle Beträge aus, um die Übersicht anderen zeigen zu können.</li>
+      </ul>
+      <h3>Datenschutz</h3>
+      <p>Alle Finanzdaten bleiben auf dem eigenen Computer. MayFinances verwendet keine Anmeldung bei Google oder anderen
+        Diensten und gibt keine Daten weiter. Die einzigen Anfragen ins Internet sind aktuelle Kurse von Tradegate; dabei
+        werden nur die Wertpapierkennungen (ISIN) abgefragt, keine persönlichen Daten.</p>
+    </section>
+    <section lang="en">
+      <span class="lang">English</span>
+      <h2>What is MayFinances?</h2>
+      <p>MayFinances is a personal finance overview. It runs on the user's own computer and is used in the browser at
+        <code>http://localhost</code>; it is not reachable over any network and has no server on the internet.</p>
+      <h3>Features</h3>
+      <ul>
+        <li>Imports the CSV exports of bank and brokerage accounts (e.g. Trade Republic, C24) from a folder on the computer,
+          automatically at start.</li>
+        <li>Shows balances, transactions with filters, depots with cost basis and current prices, realised gains (FIFO),
+          dividends, interest, contracts and the development of total assets.</li>
+        <li>Hides all amounts at the push of a button, so the overview can be shown to others.</li>
+      </ul>
+      <h3>Privacy</h3>
+      <p>All financial data stays on the user's computer. MayFinances uses no sign-in with Google or other services and
+        shares no data. Its only requests to the internet are current prices from Tradegate, which send only the security
+        identifiers (ISIN), no personal data.</p>
+    </section>
+  </main>
+  <footer>MayFinances · Julian Mayer · <a href="mailto:julian.c.mayer@gmail.com">julian.c.mayer@gmail.com</a></footer>
+</body>
+</html>
